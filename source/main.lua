@@ -63,7 +63,7 @@ end
 
 local frame = 0
 local shots = 0
-songsVisited = 1
+local songsVisited = 1
 
 local function smokeUpdate()
     frame = frame + 1

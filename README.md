@@ -1,7 +1,23 @@
 # midiplayer
 
 A reusable MIDI playback module for Playdate (SDK 3.0.6), wrapped in a
-mixer-style demo app. The Playdate engine already parses `.mid` files
+mixer-style demo app.
+
+**[DEVGUIDE.md](DEVGUIDE.md)** — API walkthrough, integration steps, and
+the supported-MIDI-subset table.
+
+## Play it
+
+Prebuilt PDX: grab `MidiPlayer.pdx.zip` from the GitHub Releases page
+(or `dist/` in a checkout), then sideload it at
+<https://play.date/account/sideload/> or unzip it into the Playdate
+Simulator. The demo app auditions the bundled songs: d-pad selects a
+track, Ⓐ mutes, Ⓑ stops/starts, ←/→ swaps the patch, crank scales the
+tempo, and the system menu jumps to the next song.
+
+## The module
+
+The Playdate engine already parses `.mid` files
 into `playdate.sound.sequence` objects — what it deliberately leaves to
 the game is *instrumentation* (there is no General MIDI sound set).
 This module supplies that layer:
