@@ -1,5 +1,7 @@
 # midiplayer
 
+> Part of **[plAIdate](https://plaidate.github.io)** — AI-built 1-bit games, ports, and engines for the Playdate.
+
 A reusable MIDI playback module for Playdate (SDK 3.0.6), wrapped in a
 mixer-style demo app.
 
