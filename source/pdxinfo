@@ -1,6 +1,7 @@
 name=MIDI Player
-author=sdwfrost
+author=Simon Frost
 description=Load a .mid file, map each track to a synth patch, and mix it live. A test bench for the midiplayer module.
 bundleID=com.sdwfrost.midiplayer
 version=0.1
-buildNumber=1
+buildNumber=2
+imagePath=launcher
